@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng form 2</title>
+</head>
+<body style="background-color: lightblue;" >
+    <h2><p style="text-align: center;"><b>Student Registeration Form</b></p></h2>
+    <hr>
+    <form action>
+        <div>
+            <label for="ho">Firstname</label><br>
+            <textarea name="họ" id="ho" cols="120" rows="2" placeholder="Firstname" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="dem">Middlename</label><br>
+            <textarea name="đệm" id="dem" cols="120" rows="2" placeholder="Middlename" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="ten">Lastname</label><br>
+            <textarea name="tên" id="ten" cols="120" rows="2" placeholder="Lastname" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="course">Course</option>
+                <option value="course2">Course2</option>
+                <option value="course3">Course3</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>Gender:</p> 
+            <input type="radio" name="gt" value="nam" id="sex">
+            <label for="sex">Male</label>
+            <input type="radio" name="gt" value="nư" id="sex">
+            <label for="sex">Female</label>
+            <input type="radio" name="gt" value="khác" id="sex">
+            <label for="sex">Other</label>
+
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone: </label>
+            <br>
+            <input type="text" name="phone" id="phone" placeholder="+91" required> <br> <br>
+            <input type="text" name="" id="phone" placeholder="phone no." required>
+        </div>
+        <br>
+        <div>
+            <label for="adr"> Current Address: </label>
+            <br>
+            <textarea name="dc" id="adr" cols="120" rows="8" placeholder="Curent Address" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="email"> <b>Email</b> </label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="pw"><b>Password</b></label>
+            <br>
+            <input type="password" name="pw" id="pw" placeholder="Enter Password" required>
+        </div>
+        <br>
+        <div>
+            <label for="pw2"><b>Re-type Password</b></label>
+            <br>
+            <input type="password" name="pw" id="pw2" placeholder="Retype Password" required>
+        </div>
+        <br>
+        <button type="submit" >Register</button>
+    </form>
+</body>
+</html>
